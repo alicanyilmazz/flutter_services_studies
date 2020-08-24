@@ -1,0 +1,53 @@
+[
+  {
+    "car_name": "Mercedes",
+    "country": "Germany",
+    "founded_year": 1980,
+    "model": [
+      {
+        "model_name": "A-Series",
+        "Price": 23000,
+        "gasoline_driven": false
+      },
+      {
+        "model_name": "C-Series",
+        "Price": 43000,
+        "gasoline_driven": true
+      }
+    ]
+  },
+  {
+    "car_name": "Honda",
+    "country": "Japan",
+    "founded_year": 1920,
+    "model": [
+      {
+        "model_name": "Civic-Series",
+        "Price": 15000,
+        "gasoline_driven": true
+      },
+      {
+        "model_name": "Jazz-Series",
+        "Price": 31.900,
+        "gasoline_driven": true
+      }
+    ]
+  },
+  {
+    "car_name": "Renault",
+    "country": "Fransa",
+    "founded_year": 1907,
+    "model": [
+      {
+        "model_name": "Fluence-Series",
+        "Price": 19000,
+        "gasoline_driven": true
+      },
+      {
+        "model_name": "Capture-Series",
+        "Price": 7.500,
+        "gasoline_driven": true
+      }
+    ]
+  }
+]
