@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutterstudy/Pokedex/application.dart';
 
-import 'HttpPackageJsonApi/application.dart';
+
 
 void main() {
   runApp(MyApp());
