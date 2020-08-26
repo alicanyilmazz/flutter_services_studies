@@ -53,26 +53,24 @@ class _HomePageBodyState extends State<HomePageBody> {
                           tag: poke.img,
                           child: Card(
                             elevation: 6,
-                            child: Expanded(
-                              child: Column(
-                                children: [
-                                  Container(
-                                    width: 100,
-                                    height: 100,
-                                    child: FadeInImage.assetNetwork(
-                                        placeholder:
-                                            "assets/images/gif/FadingCube.gif",
-                                        image: poke.img),
-                                  ),
-                                  Text(
-                                    poke.name,
-                                    style: TextStyle(
-                                        fontSize: 22,
-                                        color: Colors.black,
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                ],
-                              ),
+                            child: Column(
+                              children: [
+                                Container(
+                                  width: 100,
+                                  height: 100,
+                                  child: FadeInImage.assetNetwork(
+                                      placeholder:
+                                          "assets/images/gif/FadingCube.gif",
+                                      image: poke.img),
+                                ),
+                                Text(
+                                  poke.name,
+                                  style: TextStyle(
+                                      fontSize: 22,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -118,7 +116,7 @@ class _HomePageBodyState extends State<HomePageBody> {
                                   height: 100,
                                   child: FadeInImage.assetNetwork(
                                       placeholder:
-                                          "assets/images/gif/FadingCube.gif",
+                                      "assets/images/gif/FadingCube.gif",
                                       image: poke.img),
                                 ),
                                 Text(
