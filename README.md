@@ -275,4 +275,40 @@ _firestore.collection("users").documents('alican_yilmaz').get().then((docSnap){
 
 ```
 
+> Firebase Storage
+
+```dart
+
+File _selectedImage;
+
+void imageUploadFromGallery() async{
+
+ var image=await ImagePicker.pickerImage(source:ImageSource.gallery);
+ setState((){
+ _selectedImage=image;
+ });
+ 
+ var ref= FirebaseStorage.instance.ref().child("users").child("usersImage");
+ StorageUploadTask uploadTask=await ref.putFile(_selectedImage);
+ 
+ if(uploadTask.isComplete){
+ var url= (await ref.getDownloadURL()).toString();
+ debugPrint("uploaded image url : "+ url);
+ }
+ 
+}
+
+void imageUploadFromCamera() async{
+
+ var image=await ImagePicker.pickerImage(source:ImageSource.camera);
+ setState((){
+ _selectedImage=image;
+ });
+ 
+}
+
+```
+
+
+
 
