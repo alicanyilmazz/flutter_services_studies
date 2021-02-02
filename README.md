@@ -5,6 +5,7 @@
  - firebase_core:  https://pub.dev/packages/firebase_core
   - cloud_firestore: https://pub.dev/packages/cloud_firestore
   - firebase storage: https://pub.dev/packages/firebase_storage
+  - image picker: https://pub.dev/packages/image_picker
   
 - I prefer Cloud Firestore , please read this documentation for reasons : https://firebase.google.com/docs/database/rtdb-vs-firestore .
 
